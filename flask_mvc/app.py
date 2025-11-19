@@ -39,7 +39,7 @@ def formulario_triangulo():
             error = "Por favor ingresa solo números válidos."
 
     # Plantilla HTML con Jinja2 (Vista)
-    return render_template('triangulo.html',
+    return render_template('index.html',
                            resultado=resultado,
                            error=error)
     
